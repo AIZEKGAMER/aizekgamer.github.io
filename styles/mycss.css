@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick Hand&display=swap");
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(102, 230, 181);
+}
+
+.nav-logo {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.nav-logo:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    background-color: rgb(102, 230, 181);
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: 'Patrick Hand', serif;
+        font-size: 48px;
+}
+
+.info-background{
+    opacity: 100%;
+}
+
+/* body p{
+    color: rgb(255, 255, 255);
+} */
+
+.video{
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+.video-media{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: a;
+}
+
+.all{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.media-links{
+    display: flex;
+}
+
+.link-design{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link-design:hover{
+    color: rgb(102, 230, 181);
+    text-decoration: underline;
+    cursor: pointer;
+}
